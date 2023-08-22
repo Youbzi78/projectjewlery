@@ -1,0 +1,40 @@
+body {
+    font-family: Stencil, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6561d9;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.product {
+    border: 1px solid #4e00eb;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: #0edd72;
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
