@@ -1,76 +1,90 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Stencil, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Stencil, sans-serif;
+  background-color: rgb(230, 248, 254);
 }
 
 header {
-    background-color: #6561d9;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #6561d9;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+  display: inline;
+  margin: 0 15px;
 }
+
+h1, h2 {
+  text-decoration: underline;
+  text-decoration-color: #81827d86;
+}
+
 h2 {
-    text-decoration-line: underline;
-    text-decoration-style:dashed ;
-  }
-  p.uppercase {
-    text-transform: uppercase;
-  }
+  text-decoration-style: dashed;
+}
+
+p.uppercase {
+  text-transform: uppercase;
+}
+
 .product {
-    border: 1px solid #4e00eb;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    width: 400px;
+  border: 1px solid #5c269d;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 400px;
 }
 
 .buy-button {
-    background-color: #0edd72;
-    color: rgb(2, 2, 2);
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    text-align: center;
+  background-color: #0edd72;
+  color: rgb(2, 2, 2);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
 }
 
 .buy-button:hover {
-    background-color: #555;
+  background-color: #555;
 }
+
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 51px;
-    width: 290px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+  max-width: 290px;
 }
-body {
-    background-color: rgb(230, 248, 254);
-  }
-  h1 {
-    text-decoration: underline;
-    text-decoration-color: #81827d86;
-  }
-  h1 {
-    text-shadow: 2px 2px 5px rgb(128, 126, 126);
-  }
-h2 {
-    text-decoration-line: underline;
-    text-decoration-style:dashed ;
-  }
-  p.uppercase {
-    text-transform: uppercase;
-  }
-  .products{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between
-  }
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: #7300ff86;
+}
+h3 {
+  text-decoration: overline underline;
+}
+h1 {
+  text-shadow: 2px 2px 5px rgb(128, 126, 126);
+}
+h2{
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
